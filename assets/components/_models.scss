@@ -1,0 +1,78 @@
+.models {
+    &__content {
+        @include flex(center, space-evenly, nowrap);
+    }
+
+    &__title {
+        @include font(700, 36px, $bg-black);
+        @include flex(center, center, nowrap);
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    &__wrapper {
+        max-width: 205px;
+        position: relative;
+    }
+
+    &__name {
+        @include flex(center, center, nowrap);
+        @include font(600, 14px, $bg-black);
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    &__price {
+        @include font(700, 18px, $bg-beige);
+        @include flex(center, center, nowrap);
+    }
+
+    &__line {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+    }
+
+    &__line2 {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+    }
+
+    &__line3 {
+        position: absolute;
+        bottom: -15px;
+        left: -15px;
+    }
+
+    &__line4 {
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+    }
+
+    &__block {
+        @include flex(center, center, nowrap);
+        margin-top: 100px;
+    }
+
+    &__btn {
+        @include font(400, 16px, $text-white);
+        background: $bg-beige;
+        width: 220px;
+        height: 55px;
+    }
+}
+
+.model3 {
+    width: 160px;
+    height: 211px;
+}
+
+.twoSwiper[hidden] {
+    display: none;
+}
+
+.threeSwiper[hidden] {
+    display: none;
+}

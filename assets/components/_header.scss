@@ -1,0 +1,32 @@
+.header {
+    &__content {
+        @include flex(center, center, nowrap);
+    }
+
+    &__list {
+        @include flex(center, center, nowrap);
+        @include font(500, 14px, #212121);
+    }
+
+    &__item {
+        @include flex(center, center, nowrap);
+        margin-left: 35px;
+    }
+
+    &__logo {
+        @include flex(center, center, nowrap);
+        margin: 0 90px;
+    }
+
+    &__title {
+        margin-left: 20px;
+    }
+
+    &__link {
+        color: #212121;
+    }
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}

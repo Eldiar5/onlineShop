@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Loop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+    <style>
+        .twoSwiper{
+            top: 1790px  !important;
+            left: 51%  !important;
+            width: 300px !important;
+            height: 400px !important;
+        }
+
+        .threeSwiper {
+            top: 2820px  !important;
+            left: 53%  !important;
+            width: 300px !important;
+            height: 400px !important;
+        }
+    </style>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <ul class="header__list header_list1">
+                    <li class="header__item">
+                        <a href="#" class="header__link">Для мужчин</a>
+                        <img src="./assets/img/header/arrow.svg" alt="arrow" class="header__arrow--icon">
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Для женщин</a>
+                        <img src="./assets/img/header/arrow.svg" alt="arrow" class="header__arrow--icon">
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Для детей</a>
+                        <img src="./assets/img/header/arrow.svg" alt="arrow" class="header__arrow--icon">
+                    </li>
+                </ul>
+
+                <label for="" class="header__logo">
+                    <img src="./assets/img/header/icon.svg" alt="loop-cion" class="header__loop--icon">
+                    <h2 class="header__title">the loop</h2>
+                </label>
+
+                <ul class="header__list header_list2">
+                    <li class="header__item">Оплата</li>
+                    <li class="header__item">Доставка</li>
+                    <li class="header__item">
+                        <img src="./assets/img/header/shopping-basket-button.svg" alt="basket" class="header__basket">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__info">
+                    <h3 class="hero__title">Зимняя распродажа</h3>
+                    <h1 class="hero__sale">СКИДКИ ДО 90%</h1>
+                    <button class="hero__btn">СМОТРЕТЬ МОДЕЛИ</button>
+                </div>
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/hero/9 900 ₽.png" alt="" style="width: 80px;" class="sw_price">
+                        <img src="./assets/img/hero/1 900 ₽.png" alt="" style="width: 130px;">
+                        <img src="./assets/img/hero/boots1.png" / class="swiper_img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/hero/9 900 ₽.png" alt="" style="width: 80px;" class="sw_price">
+                        <img src="./assets/img/hero/1 900 ₽.png" alt="" style="width: 130px;">
+                        <img src="./assets/img/hero/boots2.png" / class="swiper_img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/hero/9 900 ₽.png" alt="" style="width: 80px;" class="sw_price">
+                        <img src="./assets/img/hero/1 900 ₽.png" alt="" style="width: 130px;">
+                        <img src="./assets/img/hero/boots3.png" / class="swiper_img">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/hero/9 900 ₽.png" alt="" style="width: 80px;" class="sw_price">
+                        <img src="./assets/img/hero/1 900 ₽.png" alt="" style="width: 130px;">
+                        <img src="./assets/img/hero/boots4.png" / class="swiper_img">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="line">
+        <div class="container">
+            <div class="line__content">
+                <div class="line__delivery">
+                    <span class="line__weight">БЕСПЛАТНАЯ ДОСТАВКА</span>
+                    <span class="line__price"> ОТ 3000₽</span>
+                </div>
+                <div class="line__delivery">
+                    <span class="line__info">Сделайте заказ и получите подарок!</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="collection__content">
+            <div class="collection__item item_bg1">
+                <div class="collection__info">
+                    <div class="collection__men">
+                        <span class="collection__weight">МУЖСКАЯ</span>
+                        <span class="collection__coll">КОЛЛЕКЦИЯ</span>
+                    </div>
+                    <span class="collection__stuff">Обувь, полуверы, костюмы</span>
+                    <button class="collection__btn">
+                        <img src="./assets/img/collection/Arrow.svg" alt="arrow" class="collection__arrow">
+                    </button>
+                </div>
+                <img src="./assets/img/collection/men.png" alt="men" class="collection__img">
+            </div>
+
+            <div class="collection__item item_bg2">
+                <div class="collection__info">
+                    <div class="collection__men">
+                        <span class="collection__weight">ЖЕНСКАЯ</span>
+                        <span class="collection__coll">КОЛЛЕКЦИЯ</span>
+                    </div>
+                    <span class="collection__stuff">Обувь, полуверы, костюмы</span>
+                    <button class="collection__btn">
+                        <img src="./assets/img/collection/Arrow.svg" alt="arrow" class="collection__arrow">
+                    </button>
+                </div>
+                <img src="./assets/img/collection/woman.png" alt="woman" class="collection__img">
+            </div>
+        </div>
+        <div class="collection__catalog">
+            <img src="./assets/img/collection/catalog.png" alt="T-shirts" class="collection__shirts">
+        </div>
+    </section>
+
+    <section class="models">
+        <div class="container">
+            <h2 class="models__title">Новые модели</h2>
+            <div class="models__content">
+                <div class="models__wrapper">
+                    <img src="./assets/img/models/model1.png" alt="model1" class="models__img model3">
+                    <div class="models__name">Коктейльное платье</div>
+                    <h3 class="models__price">300$</h3>
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                </div>
+
+                <div class="models__wrapper">
+                    <img src="./assets/img/models/model2.png" alt="model1" class="models__img model3">
+                    <div class="models__name">Платье с вырезом</div>
+                    <h3 class="models__price">375$</h3>
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                </div>
+
+                <div class="models__wrapper">
+                    <img src="./assets/img/models/model3.png" alt="model1" class="models__img model3">
+                    <div class="models__name">Черное платье</div>
+                    <h3 class="models__price">500$</h3>
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                </div>
+
+                <div class="models__wrapper">
+                    <img src="./assets/img/models/model4.png" alt="model1" class="models__img model3">
+                    <div class="models__name">Юбка с топиком</div>
+                    <h3 class="models__price">400$</h3>
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                    <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                    <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                </div>
+            </div>
+
+        <div class="modelSw__block">
+            <div hidden class="swiper mySwiper twoSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/models/model1.png" / class="swiper_img" style="width: 250px;">
+                        <div class="models__name" style="color: #212121;">Коктейльное платье</div>
+                        <h3 class="models__price">300$</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/models/model2.png" / class="swiper_img" style="width: 250px;">
+                        <div class="models__name" style="color: #212121;">Платье с вырезом</div>
+                        <h3 class="models__price">375$</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/models/model3.png" / class="swiper_img" style="width: 250px;">
+                        <div class="models__name" style="color: #212121;">Черное платье</div>
+                        <h3 class="models__price">500$</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/models/model4.png" / class="swiper_img" style="width: 250px;">
+                        <div class="models__name" style="color: #212121;">Юбка с топиком</div> 
+                        <h3 class="models__price">400$</h3>                       
+                    </div>
+                </div>
+                <div class="swiper-button-next" style="color: #D7B399; position: absolute; right: -60px;"></div>
+                <div class="swiper-button-prev" style="color: #D7B399; position: absolute; left: -60px;"></div>
+            </div>
+        </div>
+
+        </div>
+        <div class="models__block">
+            <button class="models__btn">
+                ВСЕ МОДЕЛИ
+                <img src="./assets/img/collection/Arrow.svg" alt="arrow" class="models__arrow">
+            </button>
+        </div>
+    </section>
+
+    <section class="line2">
+        <div class="container">
+            <div class="line2__content">
+                <span class="line2__info">
+                    ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ
+                </span>
+                <form class="line2__form">
+                    <input type="email" class="line2__email" placeholder="Ваш e-mail">
+                    <button type="submit" class="line2__follow">
+                        ПОДПИСАТЬСЯ
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="actual">
+        <div class="container">
+            <h2 class="models__title">СКИДКИ ДО 90%</h2>
+            <div class="actual__content">
+                <div class="models__content">
+                    <div class="models__wrapper">
+                        <img src="./assets/img/actual/actual4.png" alt="model1" class="models__img model3">
+                        <div class="models__name">Пиджак и брюки</div>
+                        <h3 class="models__price">95$</h3>
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                    </div>
+
+                    <div class="models__wrapper">
+                        <img src="./assets/img/actual/actual2.png" alt="model1" class="models__img model3">
+                        <div class="models__name">Строгий костюм</div>
+                        <h3 class="models__price">130$</h3>
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                    </div>
+
+                    <div class="models__wrapper">
+                        <img src="./assets/img/actual/actual3.png" alt="model1" class="models__img model3">
+                        <div class="models__name">Белая двойка</div>
+                        <h3 class="models__price">80$</h3>
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                    </div>
+
+                    <div class="models__wrapper">
+                        <img src="./assets/img/actual/actual1.png" alt="model1" class="models__img model3">
+                        <div class="models__name">Кожаная куртка</div>
+                        <h3 class="models__price">50$</h3>
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line2">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line2">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line3">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line3">
+
+                        <img src="./assets/img/models/Line 1.svg" alt="line" class="models__line4">
+                        <img src="./assets/img/models/Line 2.svg" alt="line" class="models__line4">
+                    </div>
+                </div>
+
+            <div class="actualSw__block">
+                <div hidden class="swiper mySwiper threeSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/img/actual/actual4.png" / class="swiper_img" style="width: 230px;">
+                            <div class="models__name" style="color: #212121; margin-right: 80px;">Пиджак и брюки</div>
+                            <h3 class="models__price" style="margin-right: 80px;">95$</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/actual/actual2.png" / class="swiper_img" style="width: 250px;">
+                            <div class="models__name" style="color: #212121; margin-right: 80px;">Строгий костюм</div>
+                            <h3 class="models__price" style="margin-right: 80px;">130$</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/actual/actual3.png" / class="swiper_img" style="width: 250px;">
+                            <div class="models__name" style="color: #212121; margin-right: 80px;">Белая двойка</div>
+                            <h3 class="models__price" style="margin-right: 80px;">80$</h3>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/actual/actual1.png" / class="swiper_img" style="width: 250px;">
+                            <div class="models__name" style="color: #212121; margin-right: 80px;">Кожаная куртка</div> 
+                            <h3 class="models__price" style="margin-right: 80px;">50$</h3>                       
+                        </div>
+                    </div>
+                    <div class="swiper-button-next" style="color: #D7B399; position: absolute; right: -60px;"></div>
+                    <div class="swiper-button-prev" style="color: #D7B399; position: absolute; left: -60px;"></div>
+                </div>
+            </div>
+
+                <div class="models__block">
+                    <button class="models__btn">
+                        ВСЕ МОДЕЛИ
+                        <img src="./assets/img/collection/Arrow.svg" alt="arrow" class="models__arrow">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <label for="" class="footer__logo">
+                    <img src="./assets/img/header/icon.svg" alt="loop-cion" class="header__loop--icon">
+                    <h2 class="footer__title">the loop</h2>
+                </label>
+                <p class="footer__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Nulla faucibus egestas elit, at eleifend
+                    elit ornare ut.
+                </p>
+
+                <ul class="footer__list footer__list1">
+                    <li class="footer__item--title">Основные ссылки</li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">О магазине</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Каталог</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Доставка</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Оплата</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__list">
+                    <li class="footer__item--title">Категории</li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Мужская одежда</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Женская одежда</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Детская одежда</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Для животных</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__list footer__list3">
+                    <li class="footer__item--title">ПОЛЕЗНЫЕ ССЫЛКИ</li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Таблица размеров</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Блог о моде</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Наша миссия</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__socials">
+                    <li class="footer__item--title">СОЦ СЕТИ</li>
+                    <li class="footer__item">
+                        <img src="./assets/img/footer/Vk.svg" alt="vk" class="footer__img">
+                        <a href="#" class="footer__link">VK.com</a>
+                    </li>
+                    <li class="footer__item">
+                        <img src="./assets/img/footer/facebook.svg" alt="facebook" class="footer__img">
+                        <a href="#" class="footer__link">Facebook</a>
+                    </li>
+                    <li class="footer__item">
+                        <img src="./assets/img/footer/inst.svg" alt="Instagram" class="footer__img">
+                        <a href="#" class="footer__link">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>

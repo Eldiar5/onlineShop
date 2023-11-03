@@ -1,0 +1,792 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat";
+  background: #F9F6F1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-left: 35px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 0 90px;
+}
+.header__title {
+  margin-left: 20px;
+}
+.header__link {
+  color: #212121;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.hero__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.hero__info {
+  margin-top: 172px;
+  margin-left: 80px;
+}
+.hero__title {
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+}
+.hero__sale {
+  font-weight: 700;
+  font-size: 55px;
+  color: #000;
+  margin: 35px 0 55px 0;
+}
+.hero__btn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background: #D7B399;
+  width: 220px;
+  height: 50px;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 80%;
+  top: 70%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.sw_price {
+  margin-bottom: 15px;
+}
+
+.swiper_img {
+  margin-bottom: 35px;
+}
+
+.line {
+  background: #212121;
+  width: 100%;
+  height: 235px;
+  margin-top: 207px;
+}
+.line__weight {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 80px;
+}
+.line__price {
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+}
+.line__info {
+  font-weight: 300;
+  font-size: 21px;
+  color: #fff;
+}
+.line__delivery {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 23px;
+}
+
+.line2 {
+  background: #212121;
+  width: 100%;
+  height: 180px;
+  margin-top: 180px;
+}
+.line2__info {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.line2__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 71px 0;
+}
+.line2__email {
+  margin-left: 50px;
+  margin-right: 35px;
+}
+.line2__follow {
+  background: #D7B399;
+  width: 185px;
+  height: 40px;
+  color: #fff;
+}
+
+.collection__item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 960px;
+  margin-top: 61px;
+}
+.collection__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.collection__weight {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+.collection__coll {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+.collection__stuff {
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+.collection__btn {
+  background: #D7B399;
+  width: 80px;
+  height: 30px;
+  display: block;
+  margin-top: 40px;
+}
+.collection__men {
+  margin-bottom: 25px;
+}
+.collection__info {
+  padding-left: 100px;
+}
+.collection__item_bg2 {
+  margin-left: 150px;
+}
+
+.collection__shirts {
+  width: 655px;
+  padding: 0 40px;
+}
+
+.collection__catalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.models__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.models__title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.models__wrapper {
+  max-width: 205px;
+  position: relative;
+}
+.models__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  font-weight: 600;
+  font-size: 14px;
+  color: #212121;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.models__price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #D7B399;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.models__line {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.models__line2 {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.models__line3 {
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
+.models__line4 {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+}
+.models__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+}
+.models__btn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background: #D7B399;
+  width: 220px;
+  height: 55px;
+}
+
+.model3 {
+  width: 160px;
+  height: 211px;
+}
+
+.twoSwiper[hidden] {
+  display: none;
+}
+
+.threeSwiper[hidden] {
+  display: none;
+}
+
+.footer {
+  background: #212121;
+  margin-top: 150px;
+  height: 311px;
+  width: 100%;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-bottom: 110px;
+  margin-right: 200px;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  position: relative;
+  padding-top: 100px;
+  padding: 0 auto;
+}
+.footer__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 20px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  max-width: 200px;
+  height: 88px;
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+}
+.footer__item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #CBCFD4;
+  margin-bottom: 10px;
+}
+.footer__img {
+  margin-right: 5px;
+}
+.footer__link {
+  color: #CBCFD4;
+}
+
+.footer__item--title {
+  font-weight: 700;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .line2__info {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .line2__content {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__content {
+    display: block;
+    position: relative;
+    margin-top: 60px;
+  }
+  .header__logo {
+    position: absolute;
+    bottom: 70px;
+    left: 180px;
+  }
+  .header_list2 {
+    margin-top: 25px;
+  }
+  .header_list1 {
+    margin-bottom: -10px;
+  }
+  .hero__title {
+    font-size: 25px;
+  }
+  .hero__sale {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .hero__btn {
+    width: 200px;
+    height: 40px;
+  }
+  .swiper {
+    width: 220px;
+    height: 200px;
+    top: 87%;
+    left: 85%;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -40px;
+  }
+  .models__wrapper {
+    display: none;
+  }
+  .models__title {
+    position: relative;
+    bottom: 80px;
+  }
+  .models__btn {
+    margin-top: 260px;
+  }
+  .twoSwiper[hidden],
+  .threeSwiper[hidden] {
+    display: block;
+  }
+  .collection__info {
+    padding-left: 25px;
+  }
+  .line2__info {
+    font-size: 14px;
+  }
+  .footer__text {
+    display: none;
+  }
+  .footer__logo {
+    margin-right: 0;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+  }
+  .footer__list {
+    position: relative;
+    right: 100px;
+    top: 15px;
+  }
+  .footer__socials {
+    position: relative;
+    right: 90px;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header__logo {
+    position: absolute;
+    left: 5px;
+    bottom: 80px;
+  }
+  .header__content {
+    margin-top: 75px;
+  }
+  .hero__title {
+    font-size: 20px;
+  }
+  .hero__sale {
+    font-size: 25px;
+  }
+  .swiper {
+    width: 170px;
+    height: 165px;
+    top: 172%;
+    left: 75%;
+  }
+  .hero__info {
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .hero__sale {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .line {
+    margin-top: 240px;
+    width: 500px;
+  }
+  .header_list1 {
+    position: relative;
+    left: -5px;
+  }
+  .header_list2 {
+    margin-right: 5px;
+  }
+  .line__weight {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .line__price {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .line__info {
+    font-size: 20px;
+  }
+  .collection__img {
+    width: 170px;
+    position: relative;
+    right: 40px;
+  }
+  .collection__weight {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+  }
+  .collection__coll {
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+  }
+  .collection__item {
+    width: 225px;
+    margin-left: 20px;
+  }
+  .collection__shirts {
+    width: 440px;
+    margin-top: 100px;
+    margin-left: 55px;
+  }
+  .collection__stuff {
+    position: relative;
+    top: 92px;
+    right: 92px;
+  }
+  .collection__info {
+    position: relative;
+    top: 40px;
+    left: 170px;
+  }
+  .item_bg2 {
+    margin-right: 55px;
+  }
+  .models__title {
+    margin-top: 130px;
+    margin-left: 30px;
+  }
+  .modelSw__block {
+    position: relative;
+    bottom: 1800px;
+  }
+  .models__btn {
+    margin-top: 260px;
+    margin-left: 45px;
+  }
+  .line2 {
+    margin-top: 125px;
+    width: 500px;
+  }
+  .line2__follow {
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .line2__info {
+    font-size: 14px;
+  }
+  .actualSw__block {
+    position: relative;
+    bottom: 2850px;
+    left: 20px;
+  }
+  .swiper-button-prev {
+    left: -70px;
+  }
+  .swiper-button-next {
+    right: -30px;
+  }
+  .footer__title {
+    font-size: 20px;
+  }
+  .footer__logo {
+    bottom: 100px;
+    left: 150px;
+  }
+  .footer__socials {
+    right: 55px;
+    top: -20px;
+  }
+  .footer__list {
+    right: 60px;
+    top: 0px;
+    margin-right: 35px;
+  }
+  .footer__link {
+    font-size: 12px;
+  }
+  .footer__list1 {
+    position: relative;
+    top: -20px;
+  }
+  .footer__list3 {
+    position: relative;
+    top: -16px;
+  }
+  .footer {
+    width: 500px;
+  }
+  .collection__content {
+    margin-left: 40px;
+  }
+  .line__delivery {
+    margin-right: 30px;
+  }
+  .twoSwiper {
+    margin-left: -120px;
+  }
+  .threeSwiper {
+    margin-left: -120px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__logo {
+    left: 45px;
+    margin-bottom: 25px;
+  }
+  .header__title {
+    font-size: 22px;
+  }
+  .header_list1 {
+    left: 40px;
+  }
+  .header_list2 {
+    margin-left: 55px;
+  }
+  .hero__info {
+    margin-left: 105px;
+  }
+  .swiper {
+    left: 85%;
+  }
+  .item_bg1 {
+    margin-left: 80px;
+  }
+  .collection__shirts {
+    margin-left: 110px;
+  }
+  .models__title {
+    margin-left: 115px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .twoSwiper {
+    margin-left: -85px;
+  }
+  .models__btn {
+    margin-top: 250px;
+    margin-left: 120px;
+  }
+  .threeSwiper {
+    margin-left: -90px;
+  }
+  .models__name {
+    display: none;
+  }
+  .models__price {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__title {
+    font-size: 20px;
+  }
+  .header_list1 {
+    margin: 10px 170px;
+  }
+  .header__logo {
+    left: 50px;
+    bottom: 90px;
+  }
+  .header_list2 {
+    position: relative;
+    left: 40px;
+  }
+  .hero__info {
+    margin-left: 110px;
+  }
+  .line__weight {
+    font-size: 13px;
+  }
+  .line__info {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .collection__img {
+    width: 140px;
+    right: 65px;
+  }
+  .swiper {
+    top: 157%;
+    left: 100%;
+  }
+  .collection__shirts {
+    margin-left: 200px;
+  }
+  .collection__content {
+    margin-left: 125px;
+  }
+  .models__title {
+    margin-left: 190px;
+  }
+  .twoSwiper {
+    margin-left: -45px;
+  }
+  .threeSwiper {
+    margin-left: -55px;
+  }
+  .models__btn {
+    position: relative;
+    margin-left: 65px;
+    left: 65px;
+    top: 35px;
+  }
+  .line {
+    width: 530px;
+  }
+  .line2 {
+    width: 530px;
+  }
+  .footer {
+    width: 530px;
+  }
+  .footer__logo {
+    left: 160px;
+  }
+  .line2__content {
+    margin-left: 50px;
+  }
+  .models__name {
+    display: none;
+  }
+  .models__price {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

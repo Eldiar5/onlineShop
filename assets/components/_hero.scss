@@ -1,0 +1,23 @@
+.hero {
+    &__content {
+        @include flex(flex-end, flex-start, nowrap);
+        position: relative;
+    }
+    &__info {
+        margin-top: 172px;
+        margin-left: 80px;
+    }
+    &__title {
+        @include font(400, 30px, #000);
+    }
+    &__sale {
+        @include font(700, 55px, #000);
+        margin: 35px 0 55px 0;
+    }
+    &__btn {
+        @include font(400, 16px, #fff);
+        background: #D7B399;
+        width: 220px;
+        height: 50px;
+    }
+}

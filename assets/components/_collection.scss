@@ -1,0 +1,44 @@
+.collection {
+    &__item {
+        @include flex(flex-end, center, nowrap);
+        width: 960px;
+        margin-top: 61px;
+    }
+    &__content {
+        @include flex(flex-end, center, nowrap);
+    }
+    &__weight {
+        @include font(500, 24px, #000);
+    }
+    &__coll {
+        @include font(300, 24px, #000);
+    }
+    &__stuff {
+        @include font(300, 16px, #000);
+    }
+    &__btn {
+       background: #D7B399;
+       width: 80px;
+       height: 30px;
+       display: block;
+       margin-top: 40px;
+    }
+    &__men {
+        margin-bottom: 25px;
+    }
+    &__info {
+        padding-left: 100px;
+    }
+    &__item_bg2 {
+        margin-left: 150px;
+    }
+}
+
+.collection__shirts {
+    width: 655px;
+    padding: 0 40px;
+}
+
+.collection__catalog {
+    @include flex(center, center, nowrap);
+}
